@@ -1,0 +1,18 @@
+2025-11-13 22:03:01,205 -INFO - Logging Successfully Initialized
+2025-11-13 22:03:01,205 -INFO - Fetching stock data for AAPL
+2025-11-13 22:03:01,817 -INFO - Raw data saved at data\raw_data_AAPL.json
+2025-11-13 22:03:01,817 -INFO - Fetching stock data for TSLA
+2025-11-13 22:03:02,283 -INFO - Raw data saved at data\raw_data_TSLA.json
+2025-11-13 22:03:02,283 -INFO - Fetching stock data for GOOGL
+2025-11-13 22:03:02,800 -INFO - Raw data saved at data\raw_data_GOOGL.json
+2025-11-13 22:03:02,800 -INFO - Fetching stock data for BAC
+2025-11-13 22:03:03,277 -INFO - Raw data saved at data\raw_data_BAC.json
+2025-11-13 22:04:08,082 -INFO - Logging Successfully Initialized
+2025-11-13 22:04:08,082 -INFO - Fetching stock data for AAPL
+2025-11-13 22:04:08,599 -INFO - Raw data saved at data/raw\raw_data_AAPL.json
+2025-11-13 22:04:08,599 -INFO - Fetching stock data for TSLA
+2025-11-13 22:04:09,120 -INFO - Raw data saved at data/raw\raw_data_TSLA.json
+2025-11-13 22:04:09,120 -INFO - Fetching stock data for GOOGL
+2025-11-13 22:04:09,408 -INFO - Raw data saved at data/raw\raw_data_GOOGL.json
+2025-11-13 22:04:09,409 -INFO - Fetching stock data for BAC
+2025-11-13 22:04:09,878 -INFO - Raw data saved at data/raw\raw_data_BAC.json
