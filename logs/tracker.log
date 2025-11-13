@@ -1,4 +1,0 @@
-2025-11-13 20:39:55,078 -INFO - Logging Successfully Initialized
-2025-11-13 20:43:24,625 -INFO - Logging Successfully Initialized
-2025-11-13 20:43:24,625 -INFO - Fetching data from url https://www.alphavantage.co/query....
-2025-11-13 20:43:25,403 -INFO - Data saved successfully at data/raw_data_2025-11-13_20-43.json 

@@ -8,7 +8,7 @@ import json
 def setup_logging():
     log_dir = "logs"
     os.makedirs(log_dir,exist_ok=True)
-    log_file=os.path.join(log_dir,"tracker.log")
+    log_file=os.path.join(log_dir,"Pipeline.log")
     logging.basicConfig(
         level=logging.INFO,
         format= "%(asctime)s -%(levelname)s - %(message)s",
@@ -30,7 +30,7 @@ def load_config(config_dir="configs/config.yaml"):
         logging.error(f"Error loading config {e}")
         raise
 
-    
+
 def main():
 
     setup_logging()
