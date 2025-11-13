@@ -14,8 +14,19 @@ if API_key is None:
     logging.error("API Key not found. Check your .env file")
 
 
-def setup_logging()
-    log
+def setup_logging():
+    log_dir = "logs"
+    os.makedirs(log_dir,exist_ok=True)
+    log_file=os.path.join(log_dir,"tracker.log")
+    logging.basicConfig(
+        level=logging.INFO,
+        format= "%(asctime)s -%(levelname)s - %(message)s",
+        handlers=[
+            logging.FileHandler(log_file),
+            logging.StreamHandler()
+        ]
+    )
+    logging.info("Logging Successfully Initialized")
 
 def load_config(config_dir="configs/config.yaml"):
     try:
@@ -46,6 +57,9 @@ def fetch_stock(symbol: str,url = "https://www.alphavantage.co/query"):
         return None
 
 def main():
+
+    setup_logging()
+
     config=load_config()
     api_url =config.get("api_url")
     data= fetch_stock(symbol="BAC",url=api_url)
@@ -57,13 +71,10 @@ def main():
         with open(raw_data_path,"w") as f:
             json.dump(data,f,indent=4)
         
-        logging.INFO(f"Data saved successfully at {raw_data_path} ")
+        logging.info(f"Data saved successfully at {raw_data_path} ")
     
     else:
         logging.warning("No data fetch")
-
-    
-
 
 
 if __name__ == "__main__":
