@@ -1,8 +1,9 @@
-import os
-import logging
-from src.data_fetcher import fetch_stock
 import json
+import logging
+import os
 from datetime import datetime
+
+from src.data_fetcher import fetch_stock
 
 
 def setup_logging():
@@ -18,12 +19,13 @@ def setup_logging():
 
 
 def save_raw(symbol, data, output_dir="data/raw"):
-    os.makedirs(output_dir, exist_ok=True)
-    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    file_path = os.path.join(output_dir, f"raw_data_{symbol}_{timestamp}.json")
 
     if symbol == "" or symbol == 123 or symbol == None:
         logging.error(f"Invalid symbol: {symbol}")
+
+    os.makedirs(output_dir, exist_ok=True)
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    file_path = os.path.join(output_dir, f"raw_data_{symbol}_{timestamp}.json")
 
     try:
         with open(file_path, "w") as f:
