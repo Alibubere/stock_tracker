@@ -5,6 +5,7 @@ import os
 from datetime import datetime
 from src.data_cleaner import clean_stock_data
 from src.data_fetcher import fetch_stock
+from src.data_visualizer import plot_moving_averages , plot_close
 
 
 def setup_logging():
@@ -84,6 +85,8 @@ def main():
             save_clean(symbol, df)
 
             # Respect API rate limit (5 calls/minute)
+            plot_close(df,symbol)
+            plot_moving_averages(df,symbol)
             time.sleep(12)
 
         except Exception as e:
@@ -92,3 +95,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+ 
