@@ -20,7 +20,7 @@ def setup_logging():
 
 def save_raw(symbol, data, output_dir="data/raw"):
 
-    if symbol == "" or symbol == 123 or symbol == None:
+    if not isinstance(symbol, str) or not symbol.strip():
         logging.error(f"Invalid symbol: {symbol}")
 
     os.makedirs(output_dir, exist_ok=True)
