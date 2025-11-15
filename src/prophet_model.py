@@ -1,7 +1,9 @@
 import logging
 import pandas as pd
+import os
+import matplotlib.pyplot as plt
 from prophet import Prophet
-
+from prophet.plot import plot_plotly
 
 def prepare_for_prophet(df):
 
@@ -32,14 +34,14 @@ def prepare_for_prophet(df):
         return prophet_df
 
     except Exception as e:
-        logging.exception("Failed to prepare Dataframe for prophet.")
+        logging.exception(f"Failed to prepare DataFrame for prophet: {e}")
         return None
 
 
 def train_prophet_model(prophet_df):
 
     if prophet_df is None:
-        logging.error("Prophet data frame is NONE - cannot train prophet model")
+        logging.error("Prophet DataFrame is NONE - cannot train prophet model")
         return None
 
     if "ds" not in prophet_df.columns or "y" not in prophet_df.columns:
@@ -59,5 +61,70 @@ def train_prophet_model(prophet_df):
         return model
 
     except Exception as e:
-        logging.exception("Failed to train Prophet model")
+        logging.exception(f"Failed to train Prophet model : {e}")
         return None
+
+def make_forecast(model , periods: int =30):
+
+    if model is None :
+        logging.error(f"Invalid model {model}")
+        return None
+    
+    logging.info(f"Generating {periods}-day forecast...")
+
+    try:
+
+        future= model.make_future_dataframe(periods=periods) 
+
+        forecast= model.predict(future)
+
+        forecast= forecast[["ds","yhat","yhat_lower","yhat_upper"]]
+
+        logging.info(f"Forecast generated successully with {len(forecast)} rows.")
+
+        return forecast
+
+
+    except Exception as e:
+        logging.exception(f"Failed to forecast using prophet model :{e}")
+        return None
+
+
+def plot_prophet_forecast(symbol,model,forecast):
+
+    if not isinstance(symbol,str) or not symbol.strip():
+        logging.error(f"Invalid symbol {symbol}")
+        return None
+    
+    if model is None :
+        logging.error(f"Invalid model {model}")
+        return None
+    
+    if forecast is None:
+        logging.error(f"Invalid Forecast {forecast}")
+        return None
+    
+    os.makedirs("charts",exist_ok=True) # Ensures Charts directory exist 
+
+    try:
+
+        file_path = f"charts/{symbol}_prophet_forecast.png"
+        fig =model.plot(forecast)
+
+        fig.savefig(file_path)
+
+        plt.close(fig)
+
+        logging.info(f"Prophet forecast plot saved to : {file_path}")
+
+        return file_path
+    
+    except Exception:
+        logging.exception("Failed to plot Prophet forecast")
+        return None
+
+
+
+
+
+
