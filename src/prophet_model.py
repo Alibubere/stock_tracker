@@ -1,6 +1,7 @@
 import logging
 import pandas as pd
 import os
+import joblib
 import matplotlib.pyplot as plt
 from prophet import Prophet
 
@@ -38,7 +39,7 @@ def prepare_for_prophet(df):
         return None
 
 
-def train_prophet_model(prophet_df):
+def train_prophet_model(prophet_df,symbol):
 
     if prophet_df is None:
         logging.error("Prophet DataFrame is NONE - cannot train prophet model")
@@ -54,9 +55,15 @@ def train_prophet_model(prophet_df):
 
         logging.info(f"Training Prophet model on {len(prophet_df)} rows")
 
+        os.makedirs("models",exist_ok=True)
+
         model.fit(prophet_df)
 
         logging.info("Model trained Successfully")
+
+        joblib.dump(model, f"models/{symbol}model.joblib")
+
+        logging.info("Model saved to models/model.joblib")
 
         return model
 

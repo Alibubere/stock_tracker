@@ -170,3 +170,369 @@
 2025-11-15 13:50:45,560 - INFO - Forecast saved at: data/forecast/forecast_BAC_2025-11-15_13-50-45.csv
 2025-11-15 13:50:45,859 - INFO - Prophet forecast plot saved to : charts/BAC_prophet_forecast.png
 2025-11-15 13:50:45,859 - INFO - Prophet forecast plot generated for BAC
+2025-11-15 22:53:23,940 - INFO - Logging Successfully Initialized
+2025-11-15 22:53:23,941 - INFO - Fetching stock data for AAPL
+2025-11-15 22:53:24,641 - INFO - Raw data saved at data/raw\raw_data_AAPL_2025-11-15_22-53-24.json
+2025-11-15 22:53:24,651 - INFO - Cleaned 100 rows for AAPL
+2025-11-15 22:53:24,656 - INFO - Cleaned data saved to data/clean\cleaned_data_AAPL_2025-11-15_22-53-24.csv
+2025-11-15 22:53:24,965 - INFO - Closing price plot saved to charts/AAPL_close_trend.png
+2025-11-15 22:53:25,105 - INFO - Moving price Average saved to : charts/AAPL_moving_averages.png
+2025-11-15 22:53:25,225 - INFO - Training Prophet model on 100 rows
+2025-11-15 22:53:25,225 - ERROR - Failed to train Prophet model : makedirs() got an unexpected keyword argument 'exist_of'
+Traceback (most recent call last):
+  File "C:\Users\MUIN\Desktop\Ali\stock_tracker\src\prophet_model.py", line 58, in train_prophet_model
+    os.makedirs("models",exist_of=True)
+TypeError: makedirs() got an unexpected keyword argument 'exist_of'
+2025-11-15 22:53:25,227 - ERROR - Skipping Forecast for AAPL - model training failed.
+2025-11-15 22:53:25,227 - INFO - Fetching stock data for TSLA
+2025-11-15 22:53:25,661 - INFO - Raw data saved at data/raw\raw_data_TSLA_2025-11-15_22-53-25.json
+2025-11-15 22:53:25,663 - INFO - Cleaned 100 rows for TSLA
+2025-11-15 22:53:25,665 - INFO - Cleaned data saved to data/clean\cleaned_data_TSLA_2025-11-15_22-53-25.csv
+2025-11-15 22:53:25,812 - INFO - Closing price plot saved to charts/TSLA_close_trend.png
+2025-11-15 22:53:25,948 - INFO - Moving price Average saved to : charts/TSLA_moving_averages.png
+2025-11-15 22:53:26,019 - INFO - Training Prophet model on 100 rows
+2025-11-15 22:53:26,019 - ERROR - Failed to train Prophet model : makedirs() got an unexpected keyword argument 'exist_of'
+Traceback (most recent call last):
+  File "C:\Users\MUIN\Desktop\Ali\stock_tracker\src\prophet_model.py", line 58, in train_prophet_model
+    os.makedirs("models",exist_of=True)
+TypeError: makedirs() got an unexpected keyword argument 'exist_of'
+2025-11-15 22:53:26,020 - ERROR - Skipping Forecast for TSLA - model training failed.
+2025-11-15 22:53:26,020 - INFO - Fetching stock data for GOOGL
+2025-11-15 22:53:26,792 - INFO - Raw data saved at data/raw\raw_data_GOOGL_2025-11-15_22-53-26.json
+2025-11-15 22:53:26,794 - INFO - Cleaned 100 rows for GOOGL
+2025-11-15 22:53:26,795 - INFO - Cleaned data saved to data/clean\cleaned_data_GOOGL_2025-11-15_22-53-26.csv
+2025-11-15 22:53:26,934 - INFO - Closing price plot saved to charts/GOOGL_close_trend.png
+2025-11-15 22:53:27,060 - INFO - Moving price Average saved to : charts/GOOGL_moving_averages.png
+2025-11-15 22:53:27,124 - INFO - Training Prophet model on 100 rows
+2025-11-15 22:53:27,124 - ERROR - Failed to train Prophet model : makedirs() got an unexpected keyword argument 'exist_of'
+Traceback (most recent call last):
+  File "C:\Users\MUIN\Desktop\Ali\stock_tracker\src\prophet_model.py", line 58, in train_prophet_model
+    os.makedirs("models",exist_of=True)
+TypeError: makedirs() got an unexpected keyword argument 'exist_of'
+2025-11-15 22:53:27,124 - ERROR - Skipping Forecast for GOOGL - model training failed.
+2025-11-15 22:53:27,126 - INFO - Fetching stock data for BAC
+2025-11-15 22:53:27,920 - INFO - Raw data saved at data/raw\raw_data_BAC_2025-11-15_22-53-27.json
+2025-11-15 22:53:27,922 - INFO - Cleaned 100 rows for BAC
+2025-11-15 22:53:27,924 - INFO - Cleaned data saved to data/clean\cleaned_data_BAC_2025-11-15_22-53-27.csv
+2025-11-15 22:53:28,072 - INFO - Closing price plot saved to charts/BAC_close_trend.png
+2025-11-15 22:53:28,205 - INFO - Moving price Average saved to : charts/BAC_moving_averages.png
+2025-11-15 22:53:28,272 - INFO - Training Prophet model on 100 rows
+2025-11-15 22:53:28,272 - ERROR - Failed to train Prophet model : makedirs() got an unexpected keyword argument 'exist_of'
+Traceback (most recent call last):
+  File "C:\Users\MUIN\Desktop\Ali\stock_tracker\src\prophet_model.py", line 58, in train_prophet_model
+    os.makedirs("models",exist_of=True)
+TypeError: makedirs() got an unexpected keyword argument 'exist_of'
+2025-11-15 22:53:28,273 - ERROR - Skipping Forecast for BAC - model training failed.
+2025-11-15 22:53:58,215 - INFO - Logging Successfully Initialized
+2025-11-15 22:53:58,215 - INFO - Fetching stock data for AAPL
+2025-11-15 22:53:58,705 - INFO - Raw data saved at data/raw\raw_data_AAPL_2025-11-15_22-53-58.json
+2025-11-15 22:53:58,708 - INFO - Cleaned 100 rows for AAPL
+2025-11-15 22:53:58,712 - INFO - Cleaned data saved to data/clean\cleaned_data_AAPL_2025-11-15_22-53-58.csv
+2025-11-15 22:53:58,940 - INFO - Closing price plot saved to charts/AAPL_close_trend.png
+2025-11-15 22:53:59,079 - INFO - Moving price Average saved to : charts/AAPL_moving_averages.png
+2025-11-15 22:53:59,172 - INFO - Training Prophet model on 100 rows
+2025-11-15 22:53:59,197 - INFO - Chain [1] start processing
+2025-11-15 22:53:59,285 - INFO - Chain [1] done processing
+2025-11-15 22:53:59,288 - INFO - Model trained Successfully
+2025-11-15 22:53:59,293 - INFO - Model saved to models/model.joblib
+2025-11-15 22:53:59,293 - INFO - Generating 30-day forecast...
+2025-11-15 22:53:59,329 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 22:53:59,332 - INFO - Forecast saved at: data/forecast/forecast_AAPL_2025-11-15_22-53-59.csv
+2025-11-15 22:53:59,483 - INFO - Prophet forecast plot saved to : charts/AAPL_prophet_forecast.png
+2025-11-15 22:53:59,483 - INFO - Prophet forecast plot generated for AAPL
+2025-11-15 22:54:14,485 - INFO - Fetching stock data for TSLA
+2025-11-15 22:54:14,976 - INFO - Raw data saved at data/raw\raw_data_TSLA_2025-11-15_22-54-14.json
+2025-11-15 22:54:14,980 - INFO - Cleaned 100 rows for TSLA
+2025-11-15 22:54:14,982 - INFO - Cleaned data saved to data/clean\cleaned_data_TSLA_2025-11-15_22-54-14.csv
+2025-11-15 22:54:15,158 - INFO - Closing price plot saved to charts/TSLA_close_trend.png
+2025-11-15 22:54:15,324 - INFO - Moving price Average saved to : charts/TSLA_moving_averages.png
+2025-11-15 22:54:15,397 - INFO - Training Prophet model on 100 rows
+2025-11-15 22:54:15,414 - INFO - Chain [1] start processing
+2025-11-15 22:54:15,491 - INFO - Chain [1] done processing
+2025-11-15 22:54:15,493 - INFO - Model trained Successfully
+2025-11-15 22:54:15,499 - INFO - Model saved to models/model.joblib
+2025-11-15 22:54:15,499 - INFO - Generating 30-day forecast...
+2025-11-15 22:54:15,539 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 22:54:15,541 - INFO - Forecast saved at: data/forecast/forecast_TSLA_2025-11-15_22-54-15.csv
+2025-11-15 22:54:15,725 - INFO - Prophet forecast plot saved to : charts/TSLA_prophet_forecast.png
+2025-11-15 22:54:15,725 - INFO - Prophet forecast plot generated for TSLA
+2025-11-15 22:54:30,726 - INFO - Fetching stock data for GOOGL
+2025-11-15 22:54:31,319 - INFO - Raw data saved at data/raw\raw_data_GOOGL_2025-11-15_22-54-31.json
+2025-11-15 22:54:31,321 - INFO - Cleaned 100 rows for GOOGL
+2025-11-15 22:54:31,324 - INFO - Cleaned data saved to data/clean\cleaned_data_GOOGL_2025-11-15_22-54-31.csv
+2025-11-15 22:54:31,477 - INFO - Closing price plot saved to charts/GOOGL_close_trend.png
+2025-11-15 22:54:31,630 - INFO - Moving price Average saved to : charts/GOOGL_moving_averages.png
+2025-11-15 22:54:31,702 - INFO - Training Prophet model on 100 rows
+2025-11-15 22:54:31,716 - INFO - Chain [1] start processing
+2025-11-15 22:54:31,799 - INFO - Chain [1] done processing
+2025-11-15 22:54:31,801 - INFO - Model trained Successfully
+2025-11-15 22:54:31,806 - INFO - Model saved to models/model.joblib
+2025-11-15 22:54:31,806 - INFO - Generating 30-day forecast...
+2025-11-15 22:54:31,838 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 22:54:31,840 - INFO - Forecast saved at: data/forecast/forecast_GOOGL_2025-11-15_22-54-31.csv
+2025-11-15 22:54:32,044 - INFO - Prophet forecast plot saved to : charts/GOOGL_prophet_forecast.png
+2025-11-15 22:54:32,044 - INFO - Prophet forecast plot generated for GOOGL
+2025-11-15 22:54:47,048 - INFO - Fetching stock data for BAC
+2025-11-15 22:54:47,561 - INFO - Raw data saved at data/raw\raw_data_BAC_2025-11-15_22-54-47.json
+2025-11-15 22:54:47,563 - INFO - Cleaned 100 rows for BAC
+2025-11-15 22:54:47,565 - INFO - Cleaned data saved to data/clean\cleaned_data_BAC_2025-11-15_22-54-47.csv
+2025-11-15 22:54:47,693 - INFO - Closing price plot saved to charts/BAC_close_trend.png
+2025-11-15 22:54:47,828 - INFO - Moving price Average saved to : charts/BAC_moving_averages.png
+2025-11-15 22:54:47,895 - INFO - Training Prophet model on 100 rows
+2025-11-15 22:54:47,910 - INFO - Chain [1] start processing
+2025-11-15 22:54:47,994 - INFO - Chain [1] done processing
+2025-11-15 22:54:47,996 - INFO - Model trained Successfully
+2025-11-15 22:54:48,000 - INFO - Model saved to models/model.joblib
+2025-11-15 22:54:48,000 - INFO - Generating 30-day forecast...
+2025-11-15 22:54:48,034 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 22:54:48,037 - INFO - Forecast saved at: data/forecast/forecast_BAC_2025-11-15_22-54-48.csv
+2025-11-15 22:54:48,187 - INFO - Prophet forecast plot saved to : charts/BAC_prophet_forecast.png
+2025-11-15 22:54:48,187 - INFO - Prophet forecast plot generated for BAC
+2025-11-15 22:59:11,064 - INFO - Logging Successfully Initialized
+2025-11-15 22:59:11,065 - INFO - Fetching stock data for AAPL
+2025-11-15 22:59:11,885 - INFO - Raw data saved at data/raw\raw_data_AAPL_2025-11-15_22-59-11.json
+2025-11-15 22:59:11,889 - INFO - Cleaned 100 rows for AAPL
+2025-11-15 22:59:11,892 - INFO - Cleaned data saved to data/clean\cleaned_data_AAPL_2025-11-15_22-59-11.csv
+2025-11-15 22:59:12,124 - INFO - Closing price plot saved to charts/AAPL_close_trend.png
+2025-11-15 22:59:12,261 - INFO - Moving price Average saved to : charts/AAPL_moving_averages.png
+2025-11-15 22:59:12,354 - INFO - Training Prophet model on 100 rows
+2025-11-15 22:59:12,370 - INFO - Chain [1] start processing
+2025-11-15 22:59:12,444 - INFO - Chain [1] done processing
+2025-11-15 22:59:12,446 - INFO - Model trained Successfully
+2025-11-15 22:59:12,451 - INFO - Model saved to models/model.joblib
+2025-11-15 22:59:12,451 - INFO - Generating 30-day forecast...
+2025-11-15 22:59:12,484 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 22:59:12,486 - INFO - Forecast saved at: data/forecast/forecast_AAPL_2025-11-15_22-59-12.csv
+2025-11-15 22:59:12,633 - INFO - Prophet forecast plot saved to : charts/AAPL_prophet_forecast.png
+2025-11-15 22:59:12,633 - INFO - Prophet forecast plot generated for AAPL
+2025-11-15 22:59:27,640 - INFO - Fetching stock data for TSLA
+2025-11-15 22:59:28,140 - INFO - Raw data saved at data/raw\raw_data_TSLA_2025-11-15_22-59-28.json
+2025-11-15 22:59:28,142 - INFO - Cleaned 100 rows for TSLA
+2025-11-15 22:59:28,145 - INFO - Cleaned data saved to data/clean\cleaned_data_TSLA_2025-11-15_22-59-28.csv
+2025-11-15 22:59:28,298 - INFO - Closing price plot saved to charts/TSLA_close_trend.png
+2025-11-15 22:59:28,452 - INFO - Moving price Average saved to : charts/TSLA_moving_averages.png
+2025-11-15 22:59:28,522 - INFO - Training Prophet model on 100 rows
+2025-11-15 22:59:28,536 - INFO - Chain [1] start processing
+2025-11-15 22:59:28,614 - INFO - Chain [1] done processing
+2025-11-15 22:59:28,616 - INFO - Model trained Successfully
+2025-11-15 22:59:28,620 - INFO - Model saved to models/model.joblib
+2025-11-15 22:59:28,621 - INFO - Generating 30-day forecast...
+2025-11-15 22:59:28,654 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 22:59:28,657 - INFO - Forecast saved at: data/forecast/forecast_TSLA_2025-11-15_22-59-28.csv
+2025-11-15 22:59:28,808 - INFO - Prophet forecast plot saved to : charts/TSLA_prophet_forecast.png
+2025-11-15 22:59:28,808 - INFO - Prophet forecast plot generated for TSLA
+2025-11-15 22:59:43,812 - INFO - Fetching stock data for GOOGL
+2025-11-15 22:59:44,419 - INFO - Raw data saved at data/raw\raw_data_GOOGL_2025-11-15_22-59-44.json
+2025-11-15 22:59:44,422 - INFO - Cleaned 100 rows for GOOGL
+2025-11-15 22:59:44,424 - INFO - Cleaned data saved to data/clean\cleaned_data_GOOGL_2025-11-15_22-59-44.csv
+2025-11-15 22:59:44,572 - INFO - Closing price plot saved to charts/GOOGL_close_trend.png
+2025-11-15 22:59:44,736 - INFO - Moving price Average saved to : charts/GOOGL_moving_averages.png
+2025-11-15 22:59:44,801 - INFO - Training Prophet model on 100 rows
+2025-11-15 22:59:44,816 - INFO - Chain [1] start processing
+2025-11-15 22:59:44,898 - INFO - Chain [1] done processing
+2025-11-15 22:59:44,899 - INFO - Model trained Successfully
+2025-11-15 22:59:44,904 - INFO - Model saved to models/model.joblib
+2025-11-15 22:59:44,904 - INFO - Generating 30-day forecast...
+2025-11-15 22:59:44,937 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 22:59:44,939 - INFO - Forecast saved at: data/forecast/forecast_GOOGL_2025-11-15_22-59-44.csv
+2025-11-15 22:59:45,141 - INFO - Prophet forecast plot saved to : charts/GOOGL_prophet_forecast.png
+2025-11-15 22:59:45,142 - INFO - Prophet forecast plot generated for GOOGL
+2025-11-15 23:00:00,145 - INFO - Fetching stock data for BAC
+2025-11-15 23:00:00,933 - INFO - Raw data saved at data/raw\raw_data_BAC_2025-11-15_23-00-00.json
+2025-11-15 23:00:00,935 - INFO - Cleaned 100 rows for BAC
+2025-11-15 23:00:00,938 - INFO - Cleaned data saved to data/clean\cleaned_data_BAC_2025-11-15_23-00-00.csv
+2025-11-15 23:00:01,089 - INFO - Closing price plot saved to charts/BAC_close_trend.png
+2025-11-15 23:00:01,244 - INFO - Moving price Average saved to : charts/BAC_moving_averages.png
+2025-11-15 23:00:01,312 - INFO - Training Prophet model on 100 rows
+2025-11-15 23:00:01,325 - INFO - Chain [1] start processing
+2025-11-15 23:00:01,411 - INFO - Chain [1] done processing
+2025-11-15 23:00:01,413 - INFO - Model trained Successfully
+2025-11-15 23:00:01,418 - INFO - Model saved to models/model.joblib
+2025-11-15 23:00:01,418 - INFO - Generating 30-day forecast...
+2025-11-15 23:00:01,450 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 23:00:01,452 - INFO - Forecast saved at: data/forecast/forecast_BAC_2025-11-15_23-00-01.csv
+2025-11-15 23:00:01,606 - INFO - Prophet forecast plot saved to : charts/BAC_prophet_forecast.png
+2025-11-15 23:00:01,606 - INFO - Prophet forecast plot generated for BAC
+2025-11-15 23:03:27,113 - INFO - Logging Successfully Initialized
+2025-11-15 23:03:27,114 - INFO - Fetching stock data for AAPL
+2025-11-15 23:03:27,617 - INFO - Raw data saved at data/raw\raw_data_AAPL_2025-11-15_23-03-27.json
+2025-11-15 23:03:27,620 - INFO - Cleaned 100 rows for AAPL
+2025-11-15 23:03:27,623 - INFO - Cleaned data saved to data/clean\cleaned_data_AAPL_2025-11-15_23-03-27.csv
+2025-11-15 23:03:27,849 - INFO - Closing price plot saved to charts/AAPL_close_trend.png
+2025-11-15 23:03:27,991 - INFO - Moving price Average saved to : charts/AAPL_moving_averages.png
+2025-11-15 23:03:28,083 - INFO - Training Prophet model on 100 rows
+2025-11-15 23:03:28,100 - INFO - Chain [1] start processing
+2025-11-15 23:03:28,174 - INFO - Chain [1] done processing
+2025-11-15 23:03:28,176 - INFO - Model trained Successfully
+2025-11-15 23:03:28,180 - INFO - Model saved to models/model.joblib
+2025-11-15 23:03:28,180 - INFO - Generating 30-day forecast...
+2025-11-15 23:03:28,214 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 23:03:28,217 - INFO - Forecast saved at: data/forecast/forecast_AAPL_2025-11-15_23-03-28.csv
+2025-11-15 23:03:28,368 - INFO - Prophet forecast plot saved to : charts/AAPL_prophet_forecast.png
+2025-11-15 23:03:28,368 - INFO - Prophet forecast plot generated for AAPL
+2025-11-15 23:03:43,380 - INFO - Fetching stock data for TSLA
+2025-11-15 23:03:43,975 - INFO - Raw data saved at data/raw\raw_data_TSLA_2025-11-15_23-03-43.json
+2025-11-15 23:03:43,978 - INFO - Cleaned 100 rows for TSLA
+2025-11-15 23:03:43,980 - INFO - Cleaned data saved to data/clean\cleaned_data_TSLA_2025-11-15_23-03-43.csv
+2025-11-15 23:03:44,129 - INFO - Closing price plot saved to charts/TSLA_close_trend.png
+2025-11-15 23:03:44,285 - INFO - Moving price Average saved to : charts/TSLA_moving_averages.png
+2025-11-15 23:03:44,353 - INFO - Training Prophet model on 100 rows
+2025-11-15 23:03:44,367 - INFO - Chain [1] start processing
+2025-11-15 23:03:44,446 - INFO - Chain [1] done processing
+2025-11-15 23:03:44,448 - INFO - Model trained Successfully
+2025-11-15 23:03:44,453 - INFO - Model saved to models/model.joblib
+2025-11-15 23:03:44,453 - INFO - Generating 30-day forecast...
+2025-11-15 23:03:44,486 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 23:03:44,488 - INFO - Forecast saved at: data/forecast/forecast_TSLA_2025-11-15_23-03-44.csv
+2025-11-15 23:03:44,659 - INFO - Prophet forecast plot saved to : charts/TSLA_prophet_forecast.png
+2025-11-15 23:03:44,659 - INFO - Prophet forecast plot generated for TSLA
+2025-11-15 23:03:59,662 - INFO - Fetching stock data for GOOGL
+2025-11-15 23:04:00,418 - INFO - Raw data saved at data/raw\raw_data_GOOGL_2025-11-15_23-04-00.json
+2025-11-15 23:04:00,420 - INFO - Cleaned 100 rows for GOOGL
+2025-11-15 23:04:00,423 - INFO - Cleaned data saved to data/clean\cleaned_data_GOOGL_2025-11-15_23-04-00.csv
+2025-11-15 23:04:00,575 - INFO - Closing price plot saved to charts/GOOGL_close_trend.png
+2025-11-15 23:04:00,726 - INFO - Moving price Average saved to : charts/GOOGL_moving_averages.png
+2025-11-15 23:04:00,793 - INFO - Training Prophet model on 100 rows
+2025-11-15 23:04:00,808 - INFO - Chain [1] start processing
+2025-11-15 23:04:00,890 - INFO - Chain [1] done processing
+2025-11-15 23:04:00,893 - INFO - Model trained Successfully
+2025-11-15 23:04:00,897 - INFO - Model saved to models/model.joblib
+2025-11-15 23:04:00,898 - INFO - Generating 30-day forecast...
+2025-11-15 23:04:00,931 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 23:04:00,933 - INFO - Forecast saved at: data/forecast/forecast_GOOGL_2025-11-15_23-04-00.csv
+2025-11-15 23:04:01,136 - INFO - Prophet forecast plot saved to : charts/GOOGL_prophet_forecast.png
+2025-11-15 23:04:01,136 - INFO - Prophet forecast plot generated for GOOGL
+2025-11-15 23:04:16,150 - INFO - Fetching stock data for BAC
+2025-11-15 23:04:17,101 - INFO - Raw data saved at data/raw\raw_data_BAC_2025-11-15_23-04-17.json
+2025-11-15 23:04:17,104 - INFO - Cleaned 100 rows for BAC
+2025-11-15 23:04:17,107 - INFO - Cleaned data saved to data/clean\cleaned_data_BAC_2025-11-15_23-04-17.csv
+2025-11-15 23:04:17,251 - INFO - Closing price plot saved to charts/BAC_close_trend.png
+2025-11-15 23:04:17,400 - INFO - Moving price Average saved to : charts/BAC_moving_averages.png
+2025-11-15 23:04:17,470 - INFO - Training Prophet model on 100 rows
+2025-11-15 23:04:17,484 - INFO - Chain [1] start processing
+2025-11-15 23:04:17,566 - INFO - Chain [1] done processing
+2025-11-15 23:04:17,568 - INFO - Model trained Successfully
+2025-11-15 23:04:17,573 - INFO - Model saved to models/model.joblib
+2025-11-15 23:04:17,573 - INFO - Generating 30-day forecast...
+2025-11-15 23:04:17,611 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 23:04:17,613 - INFO - Forecast saved at: data/forecast/forecast_BAC_2025-11-15_23-04-17.csv
+2025-11-15 23:04:17,781 - INFO - Prophet forecast plot saved to : charts/BAC_prophet_forecast.png
+2025-11-15 23:04:17,781 - INFO - Prophet forecast plot generated for BAC
+2025-11-15 23:04:49,116 - INFO - Logging Successfully Initialized
+2025-11-15 23:04:49,116 - INFO - Fetching stock data for AAPL
+2025-11-15 23:04:49,591 - INFO - Raw data saved at data/raw\raw_data_AAPL_2025-11-15_23-04-49.json
+2025-11-15 23:04:49,595 - INFO - Cleaned 100 rows for AAPL
+2025-11-15 23:04:49,598 - INFO - Cleaned data saved to data/clean\cleaned_data_AAPL_2025-11-15_23-04-49.csv
+2025-11-15 23:04:49,827 - INFO - Closing price plot saved to charts/AAPL_close_trend.png
+2025-11-15 23:04:49,968 - INFO - Moving price Average saved to : charts/AAPL_moving_averages.png
+2025-11-15 23:04:50,060 - INFO - Training Prophet model on 100 rows
+2025-11-15 23:04:50,076 - INFO - Chain [1] start processing
+2025-11-15 23:04:50,146 - INFO - Chain [1] done processing
+2025-11-15 23:04:50,149 - INFO - Model trained Successfully
+2025-11-15 23:04:50,152 - INFO - Model saved to models/model.joblib
+2025-11-15 23:04:50,153 - INFO - Generating 30-day forecast...
+2025-11-15 23:04:50,189 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 23:04:50,191 - INFO - Forecast saved at: data/forecast/forecast_AAPL_2025-11-15_23-04-50.csv
+2025-11-15 23:04:50,342 - ERROR - Failed to plot Prophet forecast
+Traceback (most recent call last):
+  File "C:\Users\MUIN\Desktop\Ali\stock_tracker\src\prophet_model.py", line 123, in plot_prophet_forecast
+    fig.title(f"{symbol} Prophet Forecast", fontsize=16)
+AttributeError: 'Figure' object has no attribute 'title'
+2025-11-15 23:04:50,342 - INFO - Prophet forecast plot generated for AAPL
+2025-11-15 23:06:02,641 - INFO - Logging Successfully Initialized
+2025-11-15 23:06:02,641 - INFO - Fetching stock data for AAPL
+2025-11-15 23:06:03,300 - INFO - Raw data saved at data/raw\raw_data_AAPL_2025-11-15_23-06-03.json
+2025-11-15 23:06:03,304 - INFO - Cleaned 100 rows for AAPL
+2025-11-15 23:06:03,308 - INFO - Cleaned data saved to data/clean\cleaned_data_AAPL_2025-11-15_23-06-03.csv
+2025-11-15 23:06:03,586 - INFO - Closing price plot saved to charts/AAPL_close_trend.png
+2025-11-15 23:06:03,727 - INFO - Moving price Average saved to : charts/AAPL_moving_averages.png
+2025-11-15 23:06:03,819 - INFO - Training Prophet model on 100 rows
+2025-11-15 23:06:03,835 - INFO - Chain [1] start processing
+2025-11-15 23:06:03,911 - INFO - Chain [1] done processing
+2025-11-15 23:06:03,913 - INFO - Model trained Successfully
+2025-11-15 23:06:03,917 - INFO - Model saved to models/model.joblib
+2025-11-15 23:06:03,917 - INFO - Generating 30-day forecast...
+2025-11-15 23:06:03,951 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 23:06:03,953 - INFO - Forecast saved at: data/forecast/forecast_AAPL_2025-11-15_23-06-03.csv
+2025-11-15 23:06:04,100 - INFO - Prophet forecast plot saved to : charts/AAPL_prophet_forecast.png
+2025-11-15 23:06:04,100 - INFO - Prophet forecast plot generated for AAPL
+2025-11-15 23:06:19,109 - INFO - Fetching stock data for TSLA
+2025-11-15 23:06:19,351 - INFO - Raw data saved at data/raw\raw_data_TSLA_2025-11-15_23-06-19.json
+2025-11-15 23:06:19,351 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:06:19,351 - ERROR - Skipping save_clean for TSLA - cleaning failed
+2025-11-15 23:06:19,351 - INFO - Fetching stock data for GOOGL
+2025-11-15 23:06:19,593 - INFO - Raw data saved at data/raw\raw_data_GOOGL_2025-11-15_23-06-19.json
+2025-11-15 23:06:19,593 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:06:19,594 - ERROR - Skipping save_clean for GOOGL - cleaning failed
+2025-11-15 23:06:19,594 - INFO - Fetching stock data for BAC
+2025-11-15 23:06:19,866 - INFO - Raw data saved at data/raw\raw_data_BAC_2025-11-15_23-06-19.json
+2025-11-15 23:06:19,866 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:06:19,866 - ERROR - Skipping save_clean for BAC - cleaning failed
+2025-11-15 23:11:23,724 - INFO - Logging Successfully Initialized
+2025-11-15 23:11:23,724 - INFO - Fetching stock data for AAPL
+2025-11-15 23:11:24,102 - INFO - Raw data saved at data/raw\raw_data_AAPL_2025-11-15_23-11-24.json
+2025-11-15 23:11:24,102 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:11:24,102 - ERROR - Skipping save_clean for AAPL - cleaning failed
+2025-11-15 23:11:24,102 - INFO - Fetching stock data for TSLA
+2025-11-15 23:11:24,416 - INFO - Raw data saved at data/raw\raw_data_TSLA_2025-11-15_23-11-24.json
+2025-11-15 23:11:24,416 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:11:24,416 - ERROR - Skipping save_clean for TSLA - cleaning failed
+2025-11-15 23:11:24,416 - INFO - Fetching stock data for GOOGL
+2025-11-15 23:11:24,725 - INFO - Raw data saved at data/raw\raw_data_GOOGL_2025-11-15_23-11-24.json
+2025-11-15 23:11:24,725 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:11:24,726 - ERROR - Skipping save_clean for GOOGL - cleaning failed
+2025-11-15 23:11:24,726 - INFO - Fetching stock data for BAC
+2025-11-15 23:11:25,052 - INFO - Raw data saved at data/raw\raw_data_BAC_2025-11-15_23-11-25.json
+2025-11-15 23:11:25,052 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:11:25,052 - ERROR - Skipping save_clean for BAC - cleaning failed
+2025-11-15 23:13:10,170 - INFO - Logging Successfully Initialized
+2025-11-15 23:13:10,170 - INFO - Fetching stock data for AAPL
+2025-11-15 23:13:10,494 - INFO - Raw data saved at data/raw\raw_data_AAPL_2025-11-15_23-13-10.json
+2025-11-15 23:13:10,509 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:13:10,509 - ERROR - Skipping save_clean for AAPL - cleaning failed
+2025-11-15 23:13:10,509 - INFO - Fetching stock data for TSLA
+2025-11-15 23:13:10,812 - INFO - Raw data saved at data/raw\raw_data_TSLA_2025-11-15_23-13-10.json
+2025-11-15 23:13:10,812 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:13:10,812 - ERROR - Skipping save_clean for TSLA - cleaning failed
+2025-11-15 23:13:10,812 - INFO - Fetching stock data for GOOGL
+2025-11-15 23:13:11,117 - INFO - Raw data saved at data/raw\raw_data_GOOGL_2025-11-15_23-13-11.json
+2025-11-15 23:13:11,117 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:13:11,117 - ERROR - Skipping save_clean for GOOGL - cleaning failed
+2025-11-15 23:13:11,117 - INFO - Fetching stock data for BAC
+2025-11-15 23:13:11,431 - INFO - Raw data saved at data/raw\raw_data_BAC_2025-11-15_23-13-11.json
+2025-11-15 23:13:11,431 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:13:11,431 - ERROR - Skipping save_clean for BAC - cleaning failed
+2025-11-15 23:13:34,212 - INFO - Logging Successfully Initialized
+2025-11-15 23:13:34,212 - INFO - Fetching stock data for AAPL
+2025-11-15 23:13:34,466 - INFO - Raw data saved at data/raw\raw_data_AAPL_2025-11-15_23-13-34.json
+2025-11-15 23:13:34,467 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:13:34,467 - ERROR - Skipping save_clean for AAPL - cleaning failed
+2025-11-15 23:13:34,467 - INFO - Fetching stock data for TSLA
+2025-11-15 23:13:35,014 - INFO - Raw data saved at data/raw\raw_data_TSLA_2025-11-15_23-13-35.json
+2025-11-15 23:13:35,014 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:13:35,015 - ERROR - Skipping save_clean for TSLA - cleaning failed
+2025-11-15 23:13:35,015 - INFO - Fetching stock data for GOOGL
+2025-11-15 23:13:35,278 - INFO - Raw data saved at data/raw\raw_data_GOOGL_2025-11-15_23-13-35.json
+2025-11-15 23:13:35,278 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:13:35,278 - ERROR - Skipping save_clean for GOOGL - cleaning failed
+2025-11-15 23:13:35,278 - INFO - Fetching stock data for BAC
+2025-11-15 23:13:35,692 - INFO - Raw data saved at data/raw\raw_data_BAC_2025-11-15_23-13-35.json
+2025-11-15 23:13:35,692 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:13:35,692 - ERROR - Skipping save_clean for BAC - cleaning failed
+2025-11-15 23:24:34,871 - INFO - Logging Successfully Initialized
+2025-11-15 23:24:34,871 - INFO - Fetching stock data for AAPL
+2025-11-15 23:24:35,146 - INFO - Raw data saved at data/raw\raw_data_AAPL_2025-11-15_23-24-35.json
+2025-11-15 23:24:35,146 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:24:35,146 - ERROR - Skipping save_clean for AAPL - cleaning failed
+2025-11-15 23:24:35,146 - INFO - Fetching stock data for TSLA
+2025-11-15 23:24:35,441 - INFO - Raw data saved at data/raw\raw_data_TSLA_2025-11-15_23-24-35.json
+2025-11-15 23:24:35,441 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:24:35,441 - ERROR - Skipping save_clean for TSLA - cleaning failed
+2025-11-15 23:24:35,441 - INFO - Fetching stock data for GOOGL
+2025-11-15 23:24:36,120 - INFO - Raw data saved at data/raw\raw_data_GOOGL_2025-11-15_23-24-36.json
+2025-11-15 23:24:36,120 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:24:36,120 - ERROR - Skipping save_clean for GOOGL - cleaning failed
+2025-11-15 23:24:36,121 - INFO - Fetching stock data for BAC
+2025-11-15 23:24:36,458 - INFO - Raw data saved at data/raw\raw_data_BAC_2025-11-15_23-24-36.json
+2025-11-15 23:24:36,458 - ERROR - Invalid API response — missing required keys.
+2025-11-15 23:24:36,458 - ERROR - Skipping save_clean for BAC - cleaning failed

@@ -15,6 +15,10 @@ from src.prophet_model import (
 
 
 def setup_logging():
+    """
+    Set Up logging for the Entire Pipeline 
+    """
+
     log_dir = "logs"
     os.makedirs(log_dir, exist_ok=True)
     log_file = os.path.join(log_dir, "pipeline.log")
@@ -28,14 +32,26 @@ def setup_logging():
 
 def is_valid_symbol(symbol):
 
+    """
+    Return how the symbol format must be for validation  
+    """
+
     return isinstance(symbol, str) and symbol.strip()
 
 
 def get_timestamp():
+
+    """
+    Return current Date and time in the format of Year-Month-Date_Hour-Minutes-Seconds
+    """
     return datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
 
 def save_raw(symbol, data, output_dir="data/raw"):
+
+    """
+    Saves the Raw data for the given symbol in data/raw
+    """
 
     if not is_valid_symbol:
         logging.error(f"Invalid symbol: {symbol}")
@@ -110,7 +126,7 @@ def main():
                 )
                 continue
 
-            model = train_prophet_model(prophet_df)
+            model = train_prophet_model(prophet_df,symbol)
 
             if model is None:
                 logging.error(
