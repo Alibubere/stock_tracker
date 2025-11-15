@@ -109,3 +109,64 @@
 2025-11-15 11:23:18,528 - INFO - Cleaned data saved to data/clean\cleaned_data_BAC_2025-11-15_11-23-18.csv
 2025-11-15 11:23:18,638 - INFO - Closing price plot saved to charts/BAC_close_trend.png
 2025-11-15 11:23:18,765 - INFO - Moving price Average saved to : charts/BAC_moving_averages.png
+2025-11-15 13:49:47,085 - INFO - Logging Successfully Initialized
+2025-11-15 13:49:47,085 - INFO - Fetching stock data for AAPL
+2025-11-15 13:49:47,932 - INFO - Raw data saved at data/raw\raw_data_AAPL_2025-11-15_13-49-47.json
+2025-11-15 13:49:47,944 - INFO - Cleaned 100 rows for AAPL
+2025-11-15 13:49:47,954 - INFO - Cleaned data saved to data/clean\cleaned_data_AAPL_2025-11-15_13-49-47.csv
+2025-11-15 13:49:48,425 - INFO - Closing price plot saved to charts/AAPL_close_trend.png
+2025-11-15 13:49:48,691 - INFO - Moving price Average saved to : charts/AAPL_moving_averages.png
+2025-11-15 13:49:48,932 - INFO - Training Prophet model on 100 rows
+2025-11-15 13:49:48,990 - INFO - Chain [1] start processing
+2025-11-15 13:49:55,307 - INFO - Chain [1] done processing
+2025-11-15 13:49:55,309 - INFO - Model trained Successfully
+2025-11-15 13:49:55,312 - INFO - Generating 30-day forecast...
+2025-11-15 13:49:55,389 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 13:49:55,394 - INFO - Forecast saved at: data/forecast/forecast_AAPL_2025-11-15_13-49-55.csv
+2025-11-15 13:49:55,697 - INFO - Prophet forecast plot saved to : charts/AAPL_prophet_forecast.png
+2025-11-15 13:49:55,697 - INFO - Prophet forecast plot generated for AAPL
+2025-11-15 13:50:10,698 - INFO - Fetching stock data for TSLA
+2025-11-15 13:50:11,177 - INFO - Raw data saved at data/raw\raw_data_TSLA_2025-11-15_13-50-11.json
+2025-11-15 13:50:11,178 - INFO - Cleaned 100 rows for TSLA
+2025-11-15 13:50:11,184 - INFO - Cleaned data saved to data/clean\cleaned_data_TSLA_2025-11-15_13-50-11.csv
+2025-11-15 13:50:11,401 - INFO - Closing price plot saved to charts/TSLA_close_trend.png
+2025-11-15 13:50:11,650 - INFO - Moving price Average saved to : charts/TSLA_moving_averages.png
+2025-11-15 13:50:11,768 - INFO - Training Prophet model on 100 rows
+2025-11-15 13:50:11,799 - INFO - Chain [1] start processing
+2025-11-15 13:50:11,965 - INFO - Chain [1] done processing
+2025-11-15 13:50:11,968 - INFO - Model trained Successfully
+2025-11-15 13:50:11,968 - INFO - Generating 30-day forecast...
+2025-11-15 13:50:12,031 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 13:50:12,038 - INFO - Forecast saved at: data/forecast/forecast_TSLA_2025-11-15_13-50-12.csv
+2025-11-15 13:50:12,340 - INFO - Prophet forecast plot saved to : charts/TSLA_prophet_forecast.png
+2025-11-15 13:50:12,340 - INFO - Prophet forecast plot generated for TSLA
+2025-11-15 13:50:27,348 - INFO - Fetching stock data for GOOGL
+2025-11-15 13:50:27,936 - INFO - Raw data saved at data/raw\raw_data_GOOGL_2025-11-15_13-50-27.json
+2025-11-15 13:50:27,940 - INFO - Cleaned 100 rows for GOOGL
+2025-11-15 13:50:27,941 - INFO - Cleaned data saved to data/clean\cleaned_data_GOOGL_2025-11-15_13-50-27.csv
+2025-11-15 13:50:28,173 - INFO - Closing price plot saved to charts/GOOGL_close_trend.png
+2025-11-15 13:50:28,409 - INFO - Moving price Average saved to : charts/GOOGL_moving_averages.png
+2025-11-15 13:50:28,524 - INFO - Training Prophet model on 100 rows
+2025-11-15 13:50:28,554 - INFO - Chain [1] start processing
+2025-11-15 13:50:28,697 - INFO - Chain [1] done processing
+2025-11-15 13:50:28,702 - INFO - Model trained Successfully
+2025-11-15 13:50:28,702 - INFO - Generating 30-day forecast...
+2025-11-15 13:50:28,766 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 13:50:28,778 - INFO - Forecast saved at: data/forecast/forecast_GOOGL_2025-11-15_13-50-28.csv
+2025-11-15 13:50:29,047 - INFO - Prophet forecast plot saved to : charts/GOOGL_prophet_forecast.png
+2025-11-15 13:50:29,047 - INFO - Prophet forecast plot generated for GOOGL
+2025-11-15 13:50:44,062 - INFO - Fetching stock data for BAC
+2025-11-15 13:50:44,571 - INFO - Raw data saved at data/raw\raw_data_BAC_2025-11-15_13-50-44.json
+2025-11-15 13:50:44,573 - INFO - Cleaned 100 rows for BAC
+2025-11-15 13:50:44,578 - INFO - Cleaned data saved to data/clean\cleaned_data_BAC_2025-11-15_13-50-44.csv
+2025-11-15 13:50:44,818 - INFO - Closing price plot saved to charts/BAC_close_trend.png
+2025-11-15 13:50:45,182 - INFO - Moving price Average saved to : charts/BAC_moving_averages.png
+2025-11-15 13:50:45,312 - INFO - Training Prophet model on 100 rows
+2025-11-15 13:50:45,341 - INFO - Chain [1] start processing
+2025-11-15 13:50:45,499 - INFO - Chain [1] done processing
+2025-11-15 13:50:45,503 - INFO - Model trained Successfully
+2025-11-15 13:50:45,503 - INFO - Generating 30-day forecast...
+2025-11-15 13:50:45,560 - INFO - Forecast generated successully with 130 rows.
+2025-11-15 13:50:45,560 - INFO - Forecast saved at: data/forecast/forecast_BAC_2025-11-15_13-50-45.csv
+2025-11-15 13:50:45,859 - INFO - Prophet forecast plot saved to : charts/BAC_prophet_forecast.png
+2025-11-15 13:50:45,859 - INFO - Prophet forecast plot generated for BAC
