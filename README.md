@@ -19,6 +19,8 @@ A robust Python application for tracking and analyzing stock market data using t
 
 - **Real-time Stock Data Fetching**: Retrieve daily stock data using Alpha Vantage API
 - **Multi-Symbol Support**: Track multiple stocks simultaneously (AAPL, TSLA, GOOGL, BAC)
+- **Data Visualization**: Generate comprehensive charts including price trends, moving averages, and forecasts
+- **Prophet Forecasting**: Advanced time series forecasting using Facebook Prophet
 - **Comprehensive Logging**: Detailed logging system with file and console output
 - **Data Persistence**: Automatic saving of raw data with timestamps
 - **Error Handling**: Robust error handling and validation
@@ -29,17 +31,23 @@ A robust Python application for tracking and analyzing stock market data using t
 
 ```
 stock_tracker/
+├── charts/                 # Generated visualization charts
+│   ├── *_close_trend.png   # Stock price trend charts
+│   ├── *_moving_averages.png # Moving averages analysis
+│   └── *_prophet_forecast.png # Prophet forecast charts
 ├── configs/
 │   └── config.yaml          # Configuration settings
 ├── data/
 │   ├── clean/              # Processed data storage
+│   ├── forecast/           # Prophet forecast data
 │   └── raw/                # Raw API responses
 ├── logs/
 │   └── pipeline.log        # Application logs
 ├── src/
 │   ├── data_cleaner.py     # Data processing module
 │   ├── data_fetcher.py     # API interaction module
-│   └── data_visualizer.py  # Data visualization module
+│   ├── data_visualizer.py  # Data visualization module
+│   └── prophet_model.py    # Prophet forecasting module
 ├── .env                    # Environment variables
 ├── .gitignore             # Git ignore rules
 ├── main.py                # Main application entry point
@@ -103,6 +111,31 @@ Currently configured to track:
 - **GOOGL** - Alphabet Inc.
 - **BAC** - Bank of America Corporation
 
+## 📈 Sample Visualizations
+
+The application generates three types of charts for each stock:
+
+### Price Trend Analysis
+![AAPL Close Trend](charts/AAPL_close_trend.png)
+*Apple Inc. stock price trend over time*
+
+### Moving Averages Analysis
+![AAPL Moving Averages](charts/AAPL_moving_averages.png)
+*Technical analysis with 20-day and 50-day moving averages*
+
+### Prophet Forecast
+![AAPL Prophet Forecast](charts/AAPL_prophet_forecast.png)
+*30-day price forecast using Facebook Prophet model*
+
+### Multi-Stock Comparison
+
+| Stock | Close Trend | Moving Averages | Prophet Forecast |
+|-------|-------------|-----------------|------------------|
+| AAPL  | ![AAPL Close](charts/AAPL_close_trend.png) | ![AAPL MA](charts/AAPL_moving_averages.png) | ![AAPL Forecast](charts/AAPL_prophet_forecast.png) |
+| TSLA  | ![TSLA Close](charts/TSLA_close_trend.png) | ![TSLA MA](charts/TSLA_moving_averages.png) | ![TSLA Forecast](charts/TSLA_prophet_forecast.png) |
+| GOOGL | ![GOOGL Close](charts/GOOGL_close_trend.png) | ![GOOGL MA](charts/GOOGL_moving_averages.png) | ![GOOGL Forecast](charts/GOOGL_prophet_forecast.png) |
+| BAC   | ![BAC Close](charts/BAC_close_trend.png) | ![BAC MA](charts/BAC_moving_averages.png) | ![BAC Forecast](charts/BAC_prophet_forecast.png) |
+
 ## 🔧 Configuration
 
 The application uses YAML configuration files located in the `configs/` directory. Modify `config.yaml` to customize API endpoints and other settings.
@@ -141,16 +174,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📈 Roadmap
 
-- [ ] Add data visualization capabilities
-- [ ] Implement data cleaning and preprocessing
+- [x] Add data visualization capabilities
+- [x] Implement data cleaning and preprocessing
+- [x] Implement Prophet forecasting model
 - [ ] Add support for cryptocurrency tracking
 - [ ] Create web dashboard interface
 - [ ] Add email notifications for price alerts
-- [ ] Implement technical analysis indicators
+- [ ] Implement additional technical analysis indicators
+- [ ] Add portfolio tracking and performance metrics
 
 ## 🐛 Bug Reports
 
-If you encounter any bugs or issues, please [create an issue](https://github.com/yourusername/stock_tracker/issues) with detailed information about the problem.
+If you encounter any bugs or issues, please [create an issue](https://github.com/Alibubere/stock_tracker/issues) with detailed information about the problem.
 
 ## ⭐ Show Your Support
 
