@@ -84,3 +84,28 @@
 2025-11-14 18:40:38,466 - INFO - Cleaned data saved to data/clean\cleaned_data_BAC_2025-11-14_18-40-38.csv
 2025-11-14 18:40:38,699 - INFO - Closing price plot saved to charts/BAC_close_trend.png
 2025-11-14 18:40:38,929 - INFO - Moving price Average saved to : charts/BAC_moving_averages.png
+2025-11-15 11:22:38,986 - INFO - Logging Successfully Initialized
+2025-11-15 11:22:38,986 - INFO - Fetching stock data for AAPL
+2025-11-15 11:22:39,823 - INFO - Raw data saved at data/raw\raw_data_AAPL_2025-11-15_11-22-39.json
+2025-11-15 11:22:39,835 - INFO - Cleaned 100 rows for AAPL
+2025-11-15 11:22:39,862 - INFO - Cleaned data saved to data/clean\cleaned_data_AAPL_2025-11-15_11-22-39.csv
+2025-11-15 11:22:40,202 - INFO - Closing price plot saved to charts/AAPL_close_trend.png
+2025-11-15 11:22:40,355 - INFO - Moving price Average saved to : charts/AAPL_moving_averages.png
+2025-11-15 11:22:52,355 - INFO - Fetching stock data for TSLA
+2025-11-15 11:22:52,848 - INFO - Raw data saved at data/raw\raw_data_TSLA_2025-11-15_11-22-52.json
+2025-11-15 11:22:52,849 - INFO - Cleaned 100 rows for TSLA
+2025-11-15 11:22:52,851 - INFO - Cleaned data saved to data/clean\cleaned_data_TSLA_2025-11-15_11-22-52.csv
+2025-11-15 11:22:52,980 - INFO - Closing price plot saved to charts/TSLA_close_trend.png
+2025-11-15 11:22:53,123 - INFO - Moving price Average saved to : charts/TSLA_moving_averages.png
+2025-11-15 11:23:05,124 - INFO - Fetching stock data for GOOGL
+2025-11-15 11:23:05,646 - INFO - Raw data saved at data/raw\raw_data_GOOGL_2025-11-15_11-23-05.json
+2025-11-15 11:23:05,648 - INFO - Cleaned 100 rows for GOOGL
+2025-11-15 11:23:05,651 - INFO - Cleaned data saved to data/clean\cleaned_data_GOOGL_2025-11-15_11-23-05.csv
+2025-11-15 11:23:05,829 - INFO - Closing price plot saved to charts/GOOGL_close_trend.png
+2025-11-15 11:23:05,983 - INFO - Moving price Average saved to : charts/GOOGL_moving_averages.png
+2025-11-15 11:23:17,991 - INFO - Fetching stock data for BAC
+2025-11-15 11:23:18,520 - INFO - Raw data saved at data/raw\raw_data_BAC_2025-11-15_11-23-18.json
+2025-11-15 11:23:18,528 - INFO - Cleaned 100 rows for BAC
+2025-11-15 11:23:18,528 - INFO - Cleaned data saved to data/clean\cleaned_data_BAC_2025-11-15_11-23-18.csv
+2025-11-15 11:23:18,638 - INFO - Closing price plot saved to charts/BAC_close_trend.png
+2025-11-15 11:23:18,765 - INFO - Moving price Average saved to : charts/BAC_moving_averages.png
